@@ -36,5 +36,31 @@
 </template>
 
 <style>
-    @import "../css/startsite.css";
+    @import "../css/main.css";
+
+    .section-foods {
+        max-width: 1250px;
+    }
+
+    .section-foods .main-section {
+        flex-direction: column;
+    }
+
+    .section-foods .main-section .section-title {
+        margin-bottom: 80px;
+    }
+
+    .section-foods .first-line, .section-foods .second-line, .section-foods .third-line {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .section-foods .first-line .left-column,
+    .section-foods .first-line .right-column,
+    .section-foods .second-line .left-column,
+    .section-foods .second-line .right-column,
+    .section-foods .third-line .left-column,
+    .section-foods .third-line .right-column {
+        width: 50%;
+    }
 </style>

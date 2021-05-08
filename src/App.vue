@@ -1,8 +1,8 @@
 <template>
   <Header/>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Startsite/>
+  <Black/>
+  <Introduce/>
   <Black/>
   <Foods/>
   <Black/>
@@ -12,9 +12,9 @@
 
 <script>
   import Header from './components/Header.vue'
-  import HelloWorld from './components/HelloWorld.vue'
   import Startsite from './components/Startsite.vue'
   import Black from './components/Black.vue'
+  import Introduce from './components/Introduce.vue'
   import Foods from './components/Foods.vue'
   import Cultures from './components/Cultures.vue'
   import Footer from './components/Footer.vue'
@@ -23,9 +23,9 @@
     name: 'App',
     components: {
       Header,
-      HelloWorld,
       Startsite,
       Black,
+      Introduce,
       Foods,
       Cultures,
       Footer

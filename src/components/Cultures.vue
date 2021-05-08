@@ -11,5 +11,9 @@
 </template>
 
 <style>
-    @import "../css/startsite.css";
+    @import "../css/main.css";
+
+    .section-cultures .main-section {
+        justify-content: center;
+    }
 </style>
