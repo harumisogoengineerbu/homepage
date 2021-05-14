@@ -1,7 +1,6 @@
 <template>
   <Header/>
   <Startsite/>
-  <Black/>
   <Introduce/>
   <Black/>
   <Foods/>
