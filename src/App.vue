@@ -7,6 +7,7 @@
     <Foods />
     <Black />
     <Cultures />
+    <Member />
     <Footer />
   </div>
 </template>
@@ -18,6 +19,7 @@ import Black from './components/Black.vue'
 import Introduce from './components/Introduce.vue'
 import Foods from './components/Foods.vue'
 import Cultures from './components/Cultures.vue'
+import Member from './components/Member.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -29,6 +31,7 @@ export default {
     Introduce,
     Foods,
     Cultures,
+    Member,
     Footer
   }
 }
