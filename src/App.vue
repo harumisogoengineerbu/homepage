@@ -6,6 +6,7 @@
   <Foods/>
   <Black/>
   <Cultures/>
+  <Black/>
   <Footer/>
 </template>
 
