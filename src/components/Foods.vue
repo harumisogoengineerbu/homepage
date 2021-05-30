@@ -65,4 +65,40 @@
 .section-foods .third-line .right-column {
   width: 50%;
 }
+
+.section-foods .first-line .left-column,
+.section-foods .second-line .right-column,
+.section-foods .third-line .left-column {
+    background-image: url(../assets/black-circle.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.section-foods .first-line .right-column,
+.section-foods .second-line .left-column,
+.section-foods .third-line .right-column {
+    background-color: #2c3e50;
+    border-radius: 5%;
+}
+
+.section-foods .left-column h1,
+.section-foods .right-column h1 {
+    font-size: 2.0em;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.section-foods .left-column p,
+.section-foods .right-column p {
+    color: #fff;
+    margin: 0;
+}
+
+.section-foods .first-line .left-column img,
+.section-foods .second-line .right-column img,
+.section-foods .third-line .left-column img {
+    padding: 100px;
+    border-radius: 30%;
+}
 </style>
