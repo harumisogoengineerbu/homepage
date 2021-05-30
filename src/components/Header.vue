@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark">
       <div class="container-fluid">
         <div>
           <a class="navbar-brand fw-bold" href="#">JAPAN-PR</a>
@@ -17,6 +17,9 @@
 </template>
 
 <style scoped>
+header {
+  background-color: #2c3e50;
+}
 @media screen and (max-width: 767px) {
   .links {
     width: 100%;

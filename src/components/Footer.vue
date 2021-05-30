@@ -1,7 +1,7 @@
 <template>
-  <footer class="bg-dark">
+  <footer>
     <p class="h2 text-light fw-bold mb-4">JAPAN-PR</p>
-    <nav class="navbar navbar-dark bg-dark mb-4">
+    <nav class="navbar mb-4">
       <div class="container-fluid">
         <div class="links">
           <a class="navbar-brand text-secondary" href="#">Food</a>
@@ -22,6 +22,7 @@
 
 <style scoped>
 footer {
+  background-color: #2c3e50;
   padding: 5rem 1rem 1rem 1rem;
 }
 .container-fluid {
